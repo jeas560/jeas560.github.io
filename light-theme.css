@@ -1,0 +1,79 @@
+header {
+    background-color: royalblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.custom-title {
+    color: white;
+}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: right;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+main {
+    background-color: #f2f2f2;
+    padding: 20px;
+    flex: 1;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.project-preview {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.custom-footer {
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.icon-container a {
+    display: inline-block;
+    /* Ensure the anchor takes up the image size */
+}
+
+.icon-container img {
+    width: 40px;
+    height: auto;
+    /* Maintain the image aspect ratio */
+    vertical-align: middle;
+    /* Center the image vertically within the anchor */
+    margin-right: 5px;
+}
+
+/* Styles for the theme toggle button */
+#theme-toggle {
+    border: none;
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+
+#theme-toggle-icon {
+    width: 40px;
+    height: auto;
+}
