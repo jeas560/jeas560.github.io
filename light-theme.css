@@ -39,10 +39,18 @@ section {
     border-radius: 5px;
 }
 
-.project-preview {
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #f9f9f9;
+.custom-section {
+    background-color: #f2f2f2;
+}
+
+.custom-content {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.custom-card {
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .custom-footer {
