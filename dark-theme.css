@@ -44,6 +44,11 @@ section {
     background-color: #3b3b3b;
 }
 
+.custom-content {
+    text-align: left;
+    margin-left: 20px;
+}
+
 .custom-card {
     margin-bottom: 20px;
     text-align: center;
