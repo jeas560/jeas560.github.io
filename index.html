@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="icon" href="icone-portfolio.svg" type="image/x-icon">
     <link rel="stylesheet" id="theme-style" href="light-theme.css">
-    <title> Welcome to My Portfolio </title>
+    <title>Jonathan Arroyo Portfolio</title>
 </head>
 
 <body>
     <header>
-        <h1 class="title custom-title">Jonathan Esteban Arroyo Silva</h1>
+        <h1 class="title custom-title">Jonathan Arroyo Portfolio</h1>
     </header>
     <nav>
         <button id='theme-toggle'>
@@ -42,13 +42,14 @@
                 </ul>
                 <h2 class="title is-4">Skills</h2>
                 <ul class="mb-4">
-                    <li><b>Programming Languages</b>: Python, Javascript, C, Fortran90</li>
+                    <li><b>Programming Languages</b>: Python, Javascript, TypeScript, C, Fortran90</li>
                     <li><b>Scientific Programming</b>: Pandas, Jupyter, Numpy, SciPy, Sympy, Matlab/Octave, Mathematica
+                    </li><li><b>FrontEnd Frameworks</b>: Next.JS, React, Tailwind CSS, Bulma, Bootstrap
                     </li>
                     <li><b>Data visualization</b>: Matplotlib, Gnuplot</li>
-                    <li><b>API Development</b>: REST, Django, Flask, FastAPI</li>
+                    <li><b>API Development</b>: REST, GraphQL, Django, Flask, FastAPI</li>
                     <li><b>Data Scrapping</b>: Selenium, Beautiful Soup</li>
-                    <li><b>Cloud Services</b>: AWS S3</li>
+                    <li><b>Cloud Services</b>: AWS S3, RDS, EC2</li>
                     <li><b>Databases / Data</b>: Mysql, Postgres, Firebird</li>
                     <li><b>Graphic Design</b>: Gimp, Inkscape, Corel Draw</li>
                     <li><b>OS</b>: Linux Mint, Ubuntu, Fedora, Windows</li>
@@ -64,7 +65,7 @@
                 <h2 class="title is-4">Projects</h2>
                 <div class="card custom-card">
                     <br>
-                    <h3 class="title is-5"><b>An weather app using flask and cookies</b></h3>
+                    <h3 class="title is-5"><b>An weather app using <s>Flask</s> FastAPI and cookies</b></h3>
                     <div class="card-image">
                         <figure class="image is-6by9">
                             <img src="screenshot_1.png" alt="Weather app screenshot">
@@ -72,16 +73,52 @@
                     </div>
                     <div class="content custom-content">
                         <ul class="mb-4">
+                            <li>Repo: <a href="https://github.com/jeas560/weather-app-cookies" target="_blank"> https://github.com/jeas560/weather-app-cookies </a></li>
+                        </ul>
+                    </div>
+                    <div class="content custom-content">
+                        <h4 class="title is-6"><b>Description:</b></h4>
+                        <ul class="mb-4">
                             <li>This web application is designed to provide users with real-time weather information for
                                 their chosen cities.</li>
-                            <li>This project leverages Flask, a micro web framework in Python, for accessing weather
+                            <li>This project leverages <s>Flask</s> FastAPI, an API <s>micro web</s> framework in Python, for accessing weather
                                 data.</li>
+                            <li>The migration from Flask to FastAPI was given to obtain better code maintenance in the future,
+                                even when in the end, the project changed to  Next.js</li>
                             <li>To enhance the user experience, the application uses cookies to save the selected
                                 cities.</li>
                             <li>This means that users won't have to re-enter their location each time they visit the
                                 site.</li>
                             <li>Finally, using Bulma for styling the web application ensures a responsive and clean
                                 design.</li>
+                        </ul>
+                        <br>
+                    </div>
+                </div>
+                <div class="card custom-card">
+                    <br>
+                    <h3 class="title is-5"><b>Another weather app using, but this time using Next.js, TypeScript, Tailwind CSS and cookies</b></h3>
+                    <div class="card-image">
+                        <figure class="image is-6by9">
+                            <img src="screenshot_2.png" alt="Weather app screenshot">
+                        </figure>
+                    </div>
+                    <div class="content custom-content">
+                        <ul class="mb-4">
+                            <li>Link: <a href="https://weather-app-cookies.vercel.app/" target="_blank"> https://weather-app-cookies.vercel.app/ </a></li>
+                            <li>Repo: <a href="https://github.com/jeas560/weather_app_cookies" target="_blank"> https://github.com/jeas560/weather_app_cookies </a></li>
+                        </ul>
+                    </div>
+                    <div class="content custom-content">
+                        <h4 class="title is-6"><b>Description:</b></h4>
+                        <ul class="mb-4">
+                            <li>This web application is designed to provide users with real-time weather information for
+                                their chosen cities too. </li>
+                            <li>In this project the objectives were different than the another one, but the results are quite similar </li>
+                            <li>We used TypeScript (JavaScript with syntax for types) to manage the data fetch and validations. </li>
+                            <li>React and Next.JS where used to build the components dynamically and in an easy way. </li>                            
+                            <li>However, the application uses cookies to save the selected cities too. </li>
+                            <li>We used Tailwind CSS for styling the web application. </li>
                         </ul>
                         <br>
                     </div>
